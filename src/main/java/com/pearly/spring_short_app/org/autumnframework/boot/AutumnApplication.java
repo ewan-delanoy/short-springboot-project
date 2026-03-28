@@ -204,7 +204,7 @@ public class AutumnApplication {
 
     private static final Log logger = LogFactory.getLog(AutumnApplication.class);
 
-    static final SpringApplicationShutdownHook shutdownHook = new SpringApplicationShutdownHook();
+    static final AutumnApplicationShutdownHook shutdownHook = new AutumnApplicationShutdownHook();
 
     private static final ThreadLocal<SpringApplicationHook> applicationHook = new ThreadLocal<>();
 
