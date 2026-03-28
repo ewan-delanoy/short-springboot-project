@@ -206,7 +206,7 @@ public class AutumnApplication {
 
     static final AutumnApplicationShutdownHook shutdownHook = new AutumnApplicationShutdownHook();
 
-    private static final ThreadLocal<SpringApplicationHook> applicationHook = new ThreadLocal<>();
+    private static final ThreadLocal<AutumnApplicationHook> applicationHook = new ThreadLocal<>();
 
     private final Set<Class<?>> primarySources;
 
@@ -455,7 +455,7 @@ public class AutumnApplication {
         argumentResolver = argumentResolver.and(String[].class, args);
         List<SpringApplicationRunListener> listeners = getSpringFactoriesInstances(SpringApplicationRunListener.class,
                 argumentResolver);
-        SpringApplicationHook hook = applicationHook.get();
+        AutumnApplicationHook hook = applicationHook.get();
         SpringApplicationRunListener hookListener = (hook != null) ? hook.getRunListener(this) : null;
         if (hookListener != null) {
             listeners = new ArrayList<>(listeners);
@@ -1427,7 +1427,7 @@ public class AutumnApplication {
      * @return a {@link SpringApplication.Augmented} instance that can be used to add
      * configuration and run the application
      * @since 3.1.0
-     * @see #withHook(SpringApplicationHook, Runnable)
+     * @see #withHook(AutumnApplicationHook, Runnable)
      */
     public static SpringApplication.Augmented from(ThrowingConsumer<String[]> main) {
         Assert.notNull(main, "'main' must not be null");
@@ -1435,14 +1435,14 @@ public class AutumnApplication {
     }
 
     /**
-     * Perform the given action with the given {@link SpringApplicationHook} attached if
+     * Perform the given action with the given {@link AutumnApplicationHook} attached if
      * the action triggers an {@link SpringApplication#run(String...) application run}.
      * @param hook the hook to apply
      * @param action the action to run
      * @since 3.0.0
-     * @see #withHook(SpringApplicationHook, ThrowingSupplier)
+     * @see #withHook(AutumnApplicationHook, ThrowingSupplier)
      */
-    public static void withHook(SpringApplicationHook hook, Runnable action) {
+    public static void withHook(AutumnApplicationHook hook, Runnable action) {
         withHook(hook, () -> {
             action.run();
             return Void.class;
@@ -1450,16 +1450,16 @@ public class AutumnApplication {
     }
 
     /**
-     * Perform the given action with the given {@link SpringApplicationHook} attached if
+     * Perform the given action with the given {@link AutumnApplicationHook} attached if
      * the action triggers an {@link SpringApplication#run(String...) application run}.
      * @param <T> the result type
      * @param hook the hook to apply
      * @param action the action to run
      * @return the result of the action
      * @since 3.0.0
-     * @see #withHook(SpringApplicationHook, Runnable)
+     * @see #withHook(AutumnApplicationHook, Runnable)
      */
-    public static <T> T withHook(SpringApplicationHook hook, ThrowingSupplier<T> action) {
+    public static <T> T withHook(AutumnApplicationHook hook, ThrowingSupplier<T> action) {
         applicationHook.set(hook);
         try {
             return action.get();
@@ -1533,7 +1533,7 @@ public class AutumnApplication {
          */
         public SpringApplication.Running run(String... args) {
             RunListener runListener = new RunListener();
-            SpringApplicationHook hook = new SingleUseSpringApplicationHook((springApplication) -> {
+            AutumnApplicationHook hook = new SingleUseAutumnApplicationHook((springApplication) -> {
                 springApplication.addPrimarySources(this.sources);
                 springApplication.setAdditionalProfiles(this.additionalProfiles.toArray(String[]::new));
                 return runListener;
@@ -1673,15 +1673,15 @@ public class AutumnApplication {
     }
 
     /**
-     * {@link SpringApplicationHook} decorator that ensures the hook is only used once.
+     * {@link AutumnApplicationHook} decorator that ensures the hook is only used once.
      */
-    private static final class SingleUseSpringApplicationHook implements SpringApplicationHook {
+    private static final class SingleUseAutumnApplicationHook implements AutumnApplicationHook {
 
         private final AtomicBoolean used = new AtomicBoolean();
 
-        private final SpringApplicationHook delegate;
+        private final AutumnApplicationHook delegate;
 
-        private SingleUseSpringApplicationHook(SpringApplicationHook delegate) {
+        private SingleUseAutumnApplicationHook(AutumnApplicationHook delegate) {
             this.delegate = delegate;
         }
 
