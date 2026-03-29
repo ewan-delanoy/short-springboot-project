@@ -18,7 +18,7 @@
  */
 package com.pearly.spring_short_app.groovy.lang;
 
-import org.apache.groovy.internal.util.UncheckedThrow;
+import com.pearly.spring_short_app.org.apache.groovy.internal.util.UncheckedThrow;
 import org.apache.groovy.io.StringBuilderWriter;
 import org.apache.groovy.util.Maps;
 import org.codehaus.groovy.reflection.ReflectionCache;
