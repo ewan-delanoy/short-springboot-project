@@ -29,7 +29,7 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.PlatformManagedObject;
 import java.lang.management.RuntimeMXBean;
 
-import jdk.crac.CheckpointException;
+import com.pearly.spring_short_app.jdk.crac.CheckpointException;
 import jdk.crac.RestoreException;
 
 /**
