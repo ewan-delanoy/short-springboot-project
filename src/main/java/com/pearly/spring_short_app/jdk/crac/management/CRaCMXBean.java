@@ -30,7 +30,7 @@ import java.lang.management.PlatformManagedObject;
 import java.lang.management.RuntimeMXBean;
 
 import com.pearly.spring_short_app.jdk.crac.CheckpointException;
-import jdk.crac.RestoreException;
+import com.pearly.spring_short_app.jdk.crac.RestoreException;
 
 /**
  * Management interface for the CRaC functionality of the Java virtual machine.
