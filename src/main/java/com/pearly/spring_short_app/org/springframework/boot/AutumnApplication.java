@@ -40,7 +40,7 @@ import java.util.stream.Stream;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.crac.management.CRaCMXBean;
+import com.pearly.spring_short_app.jdk.crac.management.CRaCMXBean;
 import org.jspecify.annotations.Nullable;
 
 import org.springframework.aot.AotDetector;
@@ -1771,7 +1771,7 @@ public class AutumnApplication {
         static Startup create() {
             ClassLoader classLoader = Startup.class.getClassLoader();
             return (ClassUtils.isPresent("jdk.crac.management.CRaCMXBean", classLoader)
-                    && ClassUtils.isPresent("org.crac.management.CRaCMXBean", classLoader))
+                    && ClassUtils.isPresent("com.pearly.spring_short_app.jdk.crac.management.CRaCMXBean", classLoader))
                     ? new CoordinatedRestoreAtCheckpointStartup() : new StandardStartup();
         }
 
