@@ -20,7 +20,7 @@ package visible.groovy.lang;
 
 import java.lang.reflect.Modifier;
 
-import static org.apache.groovy.util.BeanUtils.capitalize;
+import static visible.org.apache.groovy.util.BeanUtils.capitalize;
 
 /**
  * Represents a property on a bean which may have a getter and/or a setter
