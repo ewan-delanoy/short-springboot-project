@@ -18,26 +18,26 @@
  */
 package visible.org.codehaus.groovy.runtime;
 
-import groovy.lang.Binding;
-import groovy.lang.Closure;
-import groovy.lang.GString;
-import groovy.lang.GroovyInterceptable;
-import groovy.lang.GroovyObject;
-import groovy.lang.GroovyRuntimeException;
-import groovy.lang.GroovySystem;
-import groovy.lang.MetaClass;
-import groovy.lang.MetaClassRegistry;
-import groovy.lang.MissingMethodException;
-import groovy.lang.MissingPropertyException;
-import groovy.lang.Script;
-import groovy.lang.SpreadMap;
-import groovy.lang.SpreadMapEvaluatingException;
-import groovy.lang.Tuple;
-import org.codehaus.groovy.reflection.ClassInfo;
-import org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl;
-import org.codehaus.groovy.runtime.metaclass.MissingMethodExecutionFailed;
-import org.codehaus.groovy.runtime.powerassert.PowerAssertionError;
-import org.codehaus.groovy.runtime.wrappers.PojoWrapper;
+import visible.groovy.lang.Binding;
+import visible.groovy.lang.Closure;
+import visible.groovy.lang.GString;
+import visible.groovy.lang.GroovyInterceptable;
+import visible.groovy.lang.GroovyObject;
+import visible.groovy.lang.GroovyRuntimeException;
+import visible.groovy.lang.GroovySystem;
+import visible.groovy.lang.MetaClass;
+import visible.groovy.lang.MetaClassRegistry;
+import visible.groovy.lang.MissingMethodException;
+import visible.groovy.lang.MissingPropertyException;
+import visible.groovy.lang.Script;
+import visible.groovy.lang.SpreadMap;
+import visible.groovy.lang.SpreadMapEvaluatingException;
+import visible.groovy.lang.Tuple;
+import visible.org.codehaus.groovy.reflection.ClassInfo;
+import visible.org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl;
+import visible.org.codehaus.groovy.runtime.metaclass.MissingMethodExecutionFailed;
+import visible.org.codehaus.groovy.runtime.powerassert.PowerAssertionError;
+import visible.org.codehaus.groovy.runtime.wrappers.PojoWrapper;
 
 import java.beans.Introspector;
 import java.io.IOException;

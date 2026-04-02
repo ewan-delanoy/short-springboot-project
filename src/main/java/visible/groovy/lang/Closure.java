@@ -32,7 +32,7 @@ import visible.org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
 import visible.org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache;
 import visible.org.codehaus.groovy.runtime.memoize.ConcurrentSoftCache;
 import visible.org.codehaus.groovy.runtime.memoize.LRUCache;
-import org.codehaus.groovy.runtime.memoize.Memoize;
+import visible.org.codehaus.groovy.runtime.memoize.Memoize;
 
 import java.io.IOException;
 import java.io.Serializable;
