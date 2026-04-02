@@ -18,13 +18,13 @@
  */
 package visible.org.codehaus.groovy.runtime.callsite;
 
-import groovy.lang.GroovyInterceptable;
-import groovy.lang.GroovyObject;
-import groovy.lang.MetaClass;
-import groovy.lang.MetaClassImpl;
-import org.codehaus.groovy.reflection.ClassInfo;
-import org.codehaus.groovy.runtime.GroovyCategorySupport;
-import org.codehaus.groovy.runtime.InvokerHelper;
+import visible.groovy.lang.GroovyInterceptable;
+import visible.groovy.lang.GroovyObject;
+import visible.groovy.lang.MetaClass;
+import visible.groovy.lang.MetaClassImpl;
+import visible.org.codehaus.groovy.reflection.ClassInfo;
+import visible.org.codehaus.groovy.runtime.GroovyCategorySupport;
+import visible.org.codehaus.groovy.runtime.InvokerHelper;
 
 import java.util.stream.IntStream;
 
