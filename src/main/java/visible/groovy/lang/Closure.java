@@ -20,7 +20,7 @@ package visible.groovy.lang;
 
 import visible.org.apache.groovy.internal.util.UncheckedThrow;
 import visible.org.apache.groovy.io.StringBuilderWriter;
-import org.apache.groovy.util.Maps;
+import visible.org.apache.groovy.util.Maps;
 import org.codehaus.groovy.reflection.ReflectionCache;
 import org.codehaus.groovy.reflection.stdclasses.CachedClosureClass;
 import org.codehaus.groovy.runtime.ComposedClosure;
