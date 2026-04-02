@@ -29,7 +29,7 @@ import visible.org.codehaus.groovy.runtime.GeneratedClosure;
 import visible.org.codehaus.groovy.runtime.InvokerHelper;
 import visible.org.codehaus.groovy.runtime.InvokerInvocationException;
 import visible.org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
-import org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache;
+import visible.org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache;
 import org.codehaus.groovy.runtime.memoize.ConcurrentSoftCache;
 import org.codehaus.groovy.runtime.memoize.LRUCache;
 import org.codehaus.groovy.runtime.memoize.Memoize;
