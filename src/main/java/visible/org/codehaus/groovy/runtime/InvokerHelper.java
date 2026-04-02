@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime;
 
-import visible.groovy.lang.Binding;
+import visible.visible.groovy.lang.Binding;
 import visible.groovy.lang.Closure;
 import visible.groovy.lang.GString;
 import visible.groovy.lang.GroovyInterceptable;
