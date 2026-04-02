@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime.callsite;
 
-import visible.groovy.lang.GroovyInterceptable;
+import visible.visible.groovy.lang.GroovyInterceptable;
 import visible.groovy.lang.GroovyObject;
 import visible.groovy.lang.MetaClass;
 import visible.groovy.lang.MetaClassImpl;
