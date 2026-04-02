@@ -26,7 +26,7 @@ import visible.org.codehaus.groovy.reflection.stdclasses.CachedClosureClass;
 import visible.org.codehaus.groovy.runtime.ComposedClosure;
 import visible.org.codehaus.groovy.runtime.CurriedClosure;
 import visible.org.codehaus.groovy.runtime.GeneratedClosure;
-import org.codehaus.groovy.runtime.InvokerHelper;
+import visible.org.codehaus.groovy.runtime.InvokerHelper;
 import org.codehaus.groovy.runtime.InvokerInvocationException;
 import org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
 import org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache;
