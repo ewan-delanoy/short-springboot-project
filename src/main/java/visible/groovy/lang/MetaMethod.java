@@ -18,7 +18,7 @@
  */
 package visible.groovy.lang;
 
-import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
+import visible.visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
 import visible.org.codehaus.groovy.reflection.CachedClass;
 import visible.org.codehaus.groovy.reflection.ParameterTypes;
 import visible.org.codehaus.groovy.runtime.FormatHelper;
