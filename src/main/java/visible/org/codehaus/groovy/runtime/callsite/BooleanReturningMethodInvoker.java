@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime.callsite;
 
-import org.apache.groovy.internal.util.UncheckedThrow;
+import visible.org.apache.groovy.internal.util.UncheckedThrow;
 
 /**
  * Helper class for internal use only. This allows to call a given method and
