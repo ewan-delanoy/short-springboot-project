@@ -16,33 +16,19 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package visible.groovy.lang;
+package visible.groovy.transform;
 
-import visible.org.codehaus.groovy.runtime.InvokerHelper;
-
-import java.beans.Transient;
-import java.util.Optional;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * Base class for Java objects wishing to be Groovy objects.
+ * Marks class members that are intended for internal use.
+ *
+ * @since 2.5.3
  */
-public abstract class GroovyObjectSupport implements GroovyObject {
-
-    // never persist the MetaClass
-    private transient MetaClass metaClass = getDefaultMetaClass();
-
-    @Override
-    @Transient
-    public MetaClass getMetaClass() {
-        return this.metaClass;
-    }
-
-    @Override
-    public void setMetaClass(/*@Nullable*/ final MetaClass metaClass) {
-        this.metaClass = Optional.ofNullable(metaClass).orElseGet(this::getDefaultMetaClass);
-    }
-
-    private MetaClass getDefaultMetaClass() {
-        return InvokerHelper.getMetaClass(this.getClass());
-    }
+@Target({ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.FIELD, ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Internal {
 }
