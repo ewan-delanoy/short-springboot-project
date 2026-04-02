@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime.memoize;
 
-import javax.annotation.concurrent.ThreadSafe;
+import visible.javax.annotation.concurrent.ThreadSafe;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Map;

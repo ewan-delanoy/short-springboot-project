@@ -4,7 +4,7 @@
  *   (http://creativecommons.org/licenses/by/2.5)
  * Official home: http://www.jcip.net
  */
-package dev.mccue.jsr305.concurrent;
+package visible.javax.annotation.concurrent;
 
 import java.lang.annotation.*;
 
