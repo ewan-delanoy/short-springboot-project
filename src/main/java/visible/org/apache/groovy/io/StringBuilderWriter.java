@@ -16,7 +16,7 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package com.pearly.spring_short_app.org.apache.groovy.io;
+package visible.org.apache.groovy.io;
 
 import java.io.Serializable;
 import java.io.Writer;

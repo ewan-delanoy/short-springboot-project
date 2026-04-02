@@ -17,7 +17,7 @@
  *  under the License.
  */
 
-package com.pearly.spring_short_app.org.apache.groovy.internal.util;
+package visible.org.apache.groovy.internal.util;
 
 import org.apache.groovy.lang.annotation.Incubating;
 

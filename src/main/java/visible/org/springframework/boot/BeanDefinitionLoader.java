@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pearly.spring_short_app.org.springframework.boot;
+package visible.org.springframework.boot;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -22,7 +22,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import groovy.lang.Closure;
+import visible.groovy.lang.Closure;
 import org.jspecify.annotations.Nullable;
 
 import org.springframework.beans.BeanUtils;

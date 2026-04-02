@@ -16,10 +16,10 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package com.pearly.spring_short_app.groovy.lang;
+package visible.groovy.lang;
 
-import com.pearly.spring_short_app.org.apache.groovy.internal.util.UncheckedThrow;
-import org.apache.groovy.io.StringBuilderWriter;
+import visible.org.apache.groovy.internal.util.UncheckedThrow;
+import visible.org.apache.groovy.io.StringBuilderWriter;
 import org.apache.groovy.util.Maps;
 import org.codehaus.groovy.reflection.ReflectionCache;
 import org.codehaus.groovy.reflection.stdclasses.CachedClosureClass;

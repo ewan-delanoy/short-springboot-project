@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pearly.spring_short_app.org.springframework.boot;
+package visible.org.springframework.boot;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
