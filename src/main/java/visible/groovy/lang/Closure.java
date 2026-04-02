@@ -31,7 +31,7 @@ import visible.org.codehaus.groovy.runtime.InvokerInvocationException;
 import visible.org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
 import visible.org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache;
 import visible.org.codehaus.groovy.runtime.memoize.ConcurrentSoftCache;
-import org.codehaus.groovy.runtime.memoize.LRUCache;
+import visible.org.codehaus.groovy.runtime.memoize.LRUCache;
 import org.codehaus.groovy.runtime.memoize.Memoize;
 
 import java.io.IOException;
