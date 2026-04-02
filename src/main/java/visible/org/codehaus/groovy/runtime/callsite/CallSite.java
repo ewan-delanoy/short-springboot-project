@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime.callsite;
 
-import groovy.lang.GroovyObject;
+import visible.groovy.lang.GroovyObject;
 
 
 public interface CallSite {

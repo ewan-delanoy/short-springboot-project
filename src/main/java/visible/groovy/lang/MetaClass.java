@@ -18,7 +18,7 @@
  */
 package visible.groovy.lang;
 
-import org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.ClassNode;
 
 import java.util.List;
 
