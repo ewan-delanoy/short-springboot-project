@@ -19,7 +19,7 @@
 
 package visible.org.codehaus.groovy.runtime.memoize;
 
-import org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap;
+import visible.org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap;
 
 import java.io.Serializable;
 import java.lang.ref.SoftReference;
