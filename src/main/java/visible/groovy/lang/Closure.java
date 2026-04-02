@@ -23,7 +23,7 @@ import visible.org.apache.groovy.io.StringBuilderWriter;
 import visible.org.apache.groovy.util.Maps;
 import visible.org.codehaus.groovy.reflection.ReflectionCache;
 import visible.org.codehaus.groovy.reflection.stdclasses.CachedClosureClass;
-import org.codehaus.groovy.runtime.ComposedClosure;
+import visible.org.codehaus.groovy.runtime.ComposedClosure;
 import org.codehaus.groovy.runtime.CurriedClosure;
 import org.codehaus.groovy.runtime.GeneratedClosure;
 import org.codehaus.groovy.runtime.InvokerHelper;
