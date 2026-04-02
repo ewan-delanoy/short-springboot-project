@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.runtime.callsite;
 
-import groovy.lang.Closure;
+import visible.groovy.lang.Closure;
 
 import java.util.Map;
 import java.util.Map.Entry;

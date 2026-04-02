@@ -18,7 +18,7 @@
  */
 package visible.groovy.lang;
 
-import groovy.transform.Internal;
+import visible.groovy.transform.Internal;
 
 /**
  * The interface implemented by all Groovy objects.
