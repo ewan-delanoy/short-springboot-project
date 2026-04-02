@@ -18,11 +18,11 @@
  */
 package visible.groovy.lang;
 
-import org.codehaus.groovy.classgen.asm.BytecodeHelper;
-import org.codehaus.groovy.reflection.CachedClass;
-import org.codehaus.groovy.reflection.ParameterTypes;
-import org.codehaus.groovy.runtime.FormatHelper;
-import org.codehaus.groovy.runtime.MetaClassHelper;
+import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
+import visible.org.codehaus.groovy.reflection.CachedClass;
+import visible.org.codehaus.groovy.reflection.ParameterTypes;
+import visible.org.codehaus.groovy.runtime.FormatHelper;
+import visible.org.codehaus.groovy.runtime.MetaClassHelper;
 
 import java.lang.reflect.Modifier;
 
