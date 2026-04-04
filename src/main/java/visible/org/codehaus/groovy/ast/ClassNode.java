@@ -26,7 +26,7 @@ import visible.org.codehaus.groovy.ast.expr.BinaryExpression;
 import visible.org.codehaus.groovy.ast.expr.Expression;
 import visible.org.codehaus.groovy.ast.expr.FieldExpression;
 import visible.org.codehaus.groovy.ast.expr.TupleExpression;
-import org.codehaus.groovy.ast.stmt.BlockStatement;
+import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
 import org.codehaus.groovy.ast.stmt.ExpressionStatement;
 import org.codehaus.groovy.ast.stmt.Statement;
 import org.codehaus.groovy.ast.tools.ParameterUtils;
