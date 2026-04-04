@@ -29,7 +29,7 @@ import visible.org.codehaus.groovy.ast.expr.TupleExpression;
 import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
 import visible.org.codehaus.groovy.ast.stmt.ExpressionStatement;
 import visible.org.codehaus.groovy.ast.stmt.Statement;
-import org.codehaus.groovy.ast.tools.ParameterUtils;
+import visible.org.codehaus.groovy.ast.tools.ParameterUtils;
 import org.codehaus.groovy.control.CompilePhase;
 import org.codehaus.groovy.transform.ASTTransformation;
 import org.codehaus.groovy.transform.GroovyASTTransformation;
