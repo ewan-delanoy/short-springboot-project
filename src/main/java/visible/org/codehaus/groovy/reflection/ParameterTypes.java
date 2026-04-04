@@ -18,11 +18,11 @@
  */
 package visible.org.codehaus.groovy.reflection;
 
-import org.codehaus.groovy.GroovyBugError;
-import org.codehaus.groovy.classgen.asm.util.TypeUtil;
-import org.codehaus.groovy.runtime.MetaClassHelper;
-import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
-import org.codehaus.groovy.runtime.wrappers.Wrapper;
+import visible.org.codehaus.groovy.GroovyBugError;
+import visible.org.codehaus.groovy.classgen.asm.util.TypeUtil;
+import visible.org.codehaus.groovy.runtime.MetaClassHelper;
+import visible.org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+import visible.org.codehaus.groovy.runtime.wrappers.Wrapper;
 
 import java.lang.reflect.Array;
 
