@@ -19,7 +19,7 @@
 package visible.org.codehaus.groovy.ast;
 
 import visible.org.apache.groovy.ast.tools.AnnotatedNodeUtils;
-import org.apache.groovy.ast.tools.ClassNodeUtils;
+import visible.org.apache.groovy.ast.tools.ClassNodeUtils;
 import org.apache.groovy.lang.annotation.Incubating;
 import org.codehaus.groovy.GroovyBugError;
 import org.codehaus.groovy.ast.expr.BinaryExpression;
