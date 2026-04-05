@@ -52,7 +52,7 @@ import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
 import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveType;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.isOrImplements;
 import static visible.org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
-import static org.codehaus.groovy.runtime.ArrayTypeUtils.dimension;
+import static visible.org.codehaus.groovy.runtime.ArrayTypeUtils.dimension;
 import static org.codehaus.groovy.runtime.ArrayTypeUtils.elementType;
 
 /**
