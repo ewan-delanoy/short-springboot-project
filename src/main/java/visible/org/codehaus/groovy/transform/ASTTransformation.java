@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.transform;
 
-import org.codehaus.groovy.ast.ASTNode;
-import org.codehaus.groovy.control.SourceUnit;
+import visible.org.codehaus.groovy.ast.ASTNode;
+import visible.org.codehaus.groovy.control.SourceUnit;
 
 /**
  * This class is instantiated and invoked when an AST transformation is

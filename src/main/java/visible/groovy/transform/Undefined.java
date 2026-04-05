@@ -18,7 +18,7 @@
  */
 package visible.groovy.transform;
 
-import org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.ClassNode;
 
 /**
  * Java doesn't allow you to have null as an attribute value. It wants you to indicate what you really
