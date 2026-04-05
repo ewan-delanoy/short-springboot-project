@@ -33,7 +33,7 @@ import visible.org.codehaus.groovy.ast.AnnotationNode;
 import visible.org.codehaus.groovy.ast.ClassNode;
 import visible.org.codehaus.groovy.ast.FieldNode;
 import visible.org.codehaus.groovy.ast.GenericsType;
-import org.codehaus.groovy.ast.InnerClassNode;
+import visible.org.codehaus.groovy.ast.InnerClassNode;
 import org.codehaus.groovy.ast.Parameter;
 import org.codehaus.groovy.ast.PropertyNode;
 import org.codehaus.groovy.ast.RecordComponentNode;
