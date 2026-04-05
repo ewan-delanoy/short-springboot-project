@@ -43,7 +43,7 @@ import visible.groovy.lang.Tuple3;
 import visible.groovy.lang.Tuple4;
 import visible.groovy.lang.Tuple5;
 import visible.groovy.lang.Tuple6;
-import groovy.lang.Tuple7;
+import visible.groovy.lang.Tuple7;
 import groovy.lang.Tuple8;
 import groovy.lang.Tuple9;
 import groovy.transform.Sealed;
