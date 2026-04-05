@@ -50,7 +50,7 @@ import visible.org.codehaus.groovy.ast.stmt.SwitchStatement;
 import visible.org.codehaus.groovy.ast.tools.GenericsUtils;
 import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
 import visible.org.codehaus.groovy.control.CompilationUnit;
-import org.codehaus.groovy.control.CompilePhase;
+import visible.org.codehaus.groovy.control.CompilePhase;
 import org.codehaus.groovy.control.CompilerConfiguration;
 import org.codehaus.groovy.control.SourceUnit;
 import org.objectweb.asm.Handle;
