@@ -73,7 +73,7 @@ import java.util.stream.Collectors;
 import static visible.org.apache.groovy.ast.tools.ClassNodeUtils.addGeneratedMethod;
 import static visible.org.codehaus.groovy.ast.ClassHelper.LIST_TYPE;
 import static visible.org.codehaus.groovy.ast.ClassHelper.MAP_TYPE;
-import static org.codehaus.groovy.ast.ClassHelper.OBJECT;
+import static visible.org.codehaus.groovy.ast.ClassHelper.OBJECT;
 import static org.codehaus.groovy.ast.ClassHelper.OBJECT_TYPE;
 import static org.codehaus.groovy.ast.ClassHelper.STRING_TYPE;
 import static org.codehaus.groovy.ast.ClassHelper.TUPLE_CLASSES;
