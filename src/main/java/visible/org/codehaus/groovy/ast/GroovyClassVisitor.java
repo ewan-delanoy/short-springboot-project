@@ -16,15 +16,39 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package visible.org.codehaus.groovy.transform;
-
-import visible.org.codehaus.groovy.ast.ASTNode;
+package visible.org.codehaus.groovy.ast;
 
 /**
- * An AST transform with the ability to report errors.
- *
- * @see ASTTransformation
+ * A special visitor for working with the structure of a class. In general, your 
+ * will want to use the Abstract class based on this class {@link ClassCodeVisitorSupport}. 
+ * 
+ * @see org.codehaus.groovy.ast.ClassNode
+ * @see org.codehaus.groovy.ast.ClassCodeVisitorSupport
  */
-public interface ErrorCollecting {
-    void addError(String msg, ASTNode expr);
+public interface GroovyClassVisitor {
+
+    /**
+    * Visit a ClassNode. 
+    */ 
+    void visitClass(ClassNode node);
+
+    /**
+    * Visit a ConstructorNode. 
+    */ 
+    void visitConstructor(ConstructorNode node);
+
+    /**
+    * Visit a MethodNode. 
+    */ 
+    void visitMethod(MethodNode node);
+
+    /**
+    * Visit a FieldNode. 
+    */ 
+    void visitField(FieldNode node);
+
+    /**
+    * Visit a PropertyNode. 
+    */ 
+    void visitProperty(PropertyNode node);
 }
