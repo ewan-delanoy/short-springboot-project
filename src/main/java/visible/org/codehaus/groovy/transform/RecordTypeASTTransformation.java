@@ -103,7 +103,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.mapX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.nullX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.param;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.params;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.plusX;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.plusX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.propX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.returnS;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.stmt;
