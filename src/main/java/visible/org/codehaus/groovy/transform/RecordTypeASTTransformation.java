@@ -20,7 +20,7 @@ package visible.org.codehaus.groovy.transform;
 
 import visible.groovy.lang.GroovyClassLoader;
 import visible.groovy.transform.CompilationUnitAware;
-import groovy.transform.NamedParam;
+import visible.groovy.transform.NamedParam;
 import groovy.transform.RecordBase;
 import groovy.transform.RecordOptions;
 import groovy.transform.RecordTypeMode;
