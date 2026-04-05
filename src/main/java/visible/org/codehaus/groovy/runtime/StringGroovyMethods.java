@@ -18,19 +18,19 @@
  */
 package visible.org.codehaus.groovy.runtime;
 
-import groovy.lang.Closure;
-import groovy.lang.EmptyRange;
-import groovy.lang.GString;
-import groovy.lang.GroovyRuntimeException;
-import groovy.lang.IntRange;
-import groovy.lang.Range;
-import groovy.transform.stc.ClosureParams;
-import groovy.transform.stc.FromString;
-import groovy.transform.stc.PickFirstResolver;
-import org.apache.groovy.io.StringBuilderWriter;
-import org.apache.groovy.lang.annotation.Incubating;
-import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
-import org.codehaus.groovy.util.CharSequenceReader;
+import visible.groovy.lang.Closure;
+import visible.groovy.lang.EmptyRange;
+import visible.groovy.lang.GString;
+import visible.groovy.lang.GroovyRuntimeException;
+import visible.groovy.lang.IntRange;
+import visible.groovy.lang.Range;
+import visible.groovy.transform.stc.ClosureParams;
+import visible.groovy.transform.stc.FromString;
+import visible.groovy.transform.stc.PickFirstResolver;
+import visible.org.apache.groovy.io.StringBuilderWriter;
+import visible.org.apache.groovy.lang.annotation.Incubating;
+import visible.org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+import visible.org.codehaus.groovy.util.CharSequenceReader;
 
 import java.io.BufferedWriter;
 import java.io.File;
