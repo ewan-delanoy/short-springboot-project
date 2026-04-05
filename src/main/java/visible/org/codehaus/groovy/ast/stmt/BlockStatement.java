@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.ast.stmt;
 
-import org.codehaus.groovy.ast.GroovyCodeVisitor;
-import org.codehaus.groovy.ast.VariableScope;
+import visible.org.codehaus.groovy.ast.GroovyCodeVisitor;
+import visible.org.codehaus.groovy.ast.VariableScope;
 
 import java.util.ArrayList;
 import java.util.Arrays;

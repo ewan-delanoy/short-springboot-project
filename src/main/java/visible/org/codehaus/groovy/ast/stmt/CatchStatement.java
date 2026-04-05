@@ -18,9 +18,9 @@
  */
 package visible.org.codehaus.groovy.ast.stmt;
 
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.GroovyCodeVisitor;
-import org.codehaus.groovy.ast.Parameter;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.GroovyCodeVisitor;
+import visible.org.codehaus.groovy.ast.Parameter;
 
 
 /**
