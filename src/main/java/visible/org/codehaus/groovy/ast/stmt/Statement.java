@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.ast.stmt;
 
-import org.codehaus.groovy.ast.ASTNode;
-import org.codehaus.groovy.ast.AnnotationNode;
+import visible.org.codehaus.groovy.ast.ASTNode;
+import visible.org.codehaus.groovy.ast.AnnotationNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
