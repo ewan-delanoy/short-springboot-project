@@ -42,7 +42,7 @@ import visible.org.codehaus.groovy.ast.expr.ClassExpression;
 import visible.org.codehaus.groovy.ast.expr.ConstantExpression;
 import visible.org.codehaus.groovy.ast.expr.Expression;
 import visible.org.codehaus.groovy.ast.expr.MapEntryExpression;
-import org.codehaus.groovy.ast.expr.PropertyExpression;
+import visible.org.codehaus.groovy.ast.expr.PropertyExpression;
 import org.codehaus.groovy.ast.expr.VariableExpression;
 import org.codehaus.groovy.ast.stmt.BlockStatement;
 import org.codehaus.groovy.ast.stmt.Statement;
