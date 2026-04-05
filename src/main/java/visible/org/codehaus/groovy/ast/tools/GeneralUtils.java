@@ -89,7 +89,7 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.UnaryOperator;
 
-import static org.codehaus.groovy.antlr.PrimitiveHelper.getDefaultValueForPrimitive;
+import static visible.org.codehaus.groovy.antlr.PrimitiveHelper.getDefaultValueForPrimitive;
 
 /**
  * Handy methods when working with the Groovy AST.
