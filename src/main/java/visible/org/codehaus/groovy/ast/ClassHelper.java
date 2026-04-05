@@ -27,7 +27,7 @@ import visible.groovy.lang.GroovyObjectSupport;
 import visible.groovy.lang.MetaClass;
 import visible.groovy.lang.Range;
 import visible.groovy.lang.Reference;
-import groovy.lang.Script;
+import visible.groovy.lang.Script;
 import groovy.lang.Tuple;
 import groovy.lang.Tuple0;
 import groovy.lang.Tuple1;
