@@ -18,11 +18,11 @@
  */
 package visible.org.codehaus.groovy.runtime;
 
-import groovy.lang.EmptyRange;
-import groovy.lang.IntRange;
-import groovy.lang.NumberRange;
-import groovy.lang.Range;
-import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+import visible.groovy.lang.EmptyRange;
+import visible.groovy.lang.IntRange;
+import visible.groovy.lang.NumberRange;
+import visible.groovy.lang.Range;
+import visible.org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
 
 import java.io.Closeable;
 import java.io.IOException;
