@@ -77,7 +77,7 @@ import static visible.org.codehaus.groovy.ast.ClassHelper.OBJECT;
 import static visible.org.codehaus.groovy.ast.ClassHelper.OBJECT_TYPE;
 import static visible.org.codehaus.groovy.ast.ClassHelper.STRING_TYPE;
 import static visible.org.codehaus.groovy.ast.ClassHelper.TUPLE_CLASSES;
-import static org.codehaus.groovy.ast.ClassHelper.boolean_TYPE;
+import static visible.org.codehaus.groovy.ast.ClassHelper.boolean_TYPE;
 import static org.codehaus.groovy.ast.ClassHelper.getWrapper;
 import static org.codehaus.groovy.ast.ClassHelper.int_TYPE;
 import static org.codehaus.groovy.ast.ClassHelper.long_TYPE;
