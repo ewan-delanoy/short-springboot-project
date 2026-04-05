@@ -36,18 +36,18 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.ListIterator;
 
-import static org.codehaus.groovy.syntax.Types.BITWISE_AND;
-import static org.codehaus.groovy.syntax.Types.BITWISE_OR;
-import static org.codehaus.groovy.syntax.Types.BITWISE_XOR;
-import static org.codehaus.groovy.syntax.Types.DIVIDE;
-import static org.codehaus.groovy.syntax.Types.LEFT_SHIFT;
-import static org.codehaus.groovy.syntax.Types.MINUS;
-import static org.codehaus.groovy.syntax.Types.MULTIPLY;
-import static org.codehaus.groovy.syntax.Types.PLUS;
-import static org.codehaus.groovy.syntax.Types.POWER;
-import static org.codehaus.groovy.syntax.Types.RIGHT_SHIFT;
-import static org.codehaus.groovy.syntax.Types.RIGHT_SHIFT_UNSIGNED;
-import static org.codehaus.groovy.transform.stc.StaticTypeCheckingVisitor.inferLoopElementType;
+import static visible.org.codehaus.groovy.syntax.Types.BITWISE_AND;
+import static visible.org.codehaus.groovy.syntax.Types.BITWISE_OR;
+import static visible.org.codehaus.groovy.syntax.Types.BITWISE_XOR;
+import static visible.org.codehaus.groovy.syntax.Types.DIVIDE;
+import static visible.org.codehaus.groovy.syntax.Types.LEFT_SHIFT;
+import static visible.org.codehaus.groovy.syntax.Types.MINUS;
+import static visible.org.codehaus.groovy.syntax.Types.MULTIPLY;
+import static visible.org.codehaus.groovy.syntax.Types.PLUS;
+import static visible.org.codehaus.groovy.syntax.Types.POWER;
+import static visible.org.codehaus.groovy.syntax.Types.RIGHT_SHIFT;
+import static visible.org.codehaus.groovy.syntax.Types.RIGHT_SHIFT_UNSIGNED;
+import static visible.org.codehaus.groovy.transform.stc.StaticTypeCheckingVisitor.inferLoopElementType;
 
 public final class ExpressionUtils {
 
