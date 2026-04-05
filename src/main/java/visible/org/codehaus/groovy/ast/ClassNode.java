@@ -59,7 +59,7 @@ import static visible.org.codehaus.groovy.transform.trait.Traits.isTrait;
 import static visible.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 import static visible.org.objectweb.asm.Opcodes.ACC_ANNOTATION;
 import static visible.org.objectweb.asm.Opcodes.ACC_ENUM;
-import static org.objectweb.asm.Opcodes.ACC_FINAL;
+import static visible.org.objectweb.asm.Opcodes.ACC_FINAL;
 import static org.objectweb.asm.Opcodes.ACC_INTERFACE;
 import static org.objectweb.asm.Opcodes.ACC_PUBLIC;
 import static org.objectweb.asm.Opcodes.ACC_STATIC;
