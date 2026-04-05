@@ -20,7 +20,7 @@ package visible.org.codehaus.groovy.ast;
 
 import visible.org.codehaus.groovy.ast.expr.Expression;
 
-import static org.objectweb.asm.Opcodes.ACC_MANDATED;
+import static visible.org.objectweb.asm.Opcodes.ACC_MANDATED;
 
 /**
  * Represents a parameter on a constructor or method call. The type name is
