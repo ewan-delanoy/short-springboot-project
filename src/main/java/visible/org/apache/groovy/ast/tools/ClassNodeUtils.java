@@ -30,7 +30,7 @@ import visible.org.codehaus.groovy.ast.expr.Expression;
 import visible.org.codehaus.groovy.ast.expr.MapExpression;
 import visible.org.codehaus.groovy.ast.expr.SpreadExpression;
 import visible.org.codehaus.groovy.ast.expr.TupleExpression;
-import org.codehaus.groovy.ast.stmt.Statement;
+import visible.org.codehaus.groovy.ast.stmt.Statement;
 import org.codehaus.groovy.transform.AbstractASTTransformation;
 
 import java.lang.reflect.Modifier;
