@@ -22,7 +22,7 @@ import visible.org.codehaus.groovy.ast.ClassNode;
 import visible.org.codehaus.groovy.ast.ConstructorNode;
 import visible.org.codehaus.groovy.ast.MethodNode;
 import visible.org.codehaus.groovy.ast.Parameter;
-import org.codehaus.groovy.ast.stmt.BlockStatement;
+import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
 import org.codehaus.groovy.ast.stmt.EmptyStatement;
 import org.codehaus.groovy.ast.stmt.Statement;
 
