@@ -89,7 +89,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.assignS;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.bytecodeX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.callThisX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.callX;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.caseS;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.caseS;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.classX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.constX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.ctorX;
