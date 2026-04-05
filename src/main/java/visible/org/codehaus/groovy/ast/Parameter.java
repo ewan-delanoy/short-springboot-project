@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
 
 import static org.objectweb.asm.Opcodes.ACC_MANDATED;
 
