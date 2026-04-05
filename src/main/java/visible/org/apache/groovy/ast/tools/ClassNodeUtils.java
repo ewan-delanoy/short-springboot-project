@@ -21,7 +21,7 @@ package visible.org.apache.groovy.ast.tools;
 import visible.org.apache.groovy.util.BeanUtils;
 import visible.org.codehaus.groovy.ast.AnnotatedNode;
 import visible.org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.ConstructorNode;
+import visible.org.codehaus.groovy.ast.ConstructorNode;
 import org.codehaus.groovy.ast.FieldNode;
 import org.codehaus.groovy.ast.MethodNode;
 import org.codehaus.groovy.ast.Parameter;
