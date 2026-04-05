@@ -122,7 +122,7 @@ import static visible.org.objectweb.asm.Opcodes.ACC_STATIC;
 import static visible.org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
 import static visible.org.objectweb.asm.Opcodes.ALOAD;
 import static visible.org.objectweb.asm.Opcodes.ARETURN;
-import static org.objectweb.asm.Opcodes.IRETURN;
+import static visible.org.objectweb.asm.Opcodes.IRETURN;
 
 /**
  * Handles generation of code for the @RecordType annotation.
