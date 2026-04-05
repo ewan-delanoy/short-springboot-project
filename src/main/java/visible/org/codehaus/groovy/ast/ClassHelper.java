@@ -31,7 +31,7 @@ import visible.groovy.lang.Script;
 import visible.groovy.lang.Tuple;
 import visible.groovy.lang.Tuple0;
 import visible.groovy.lang.Tuple1;
-import groovy.lang.Tuple10;
+import visible.groovy.lang.Tuple10;
 import groovy.lang.Tuple11;
 import groovy.lang.Tuple12;
 import groovy.lang.Tuple13;
