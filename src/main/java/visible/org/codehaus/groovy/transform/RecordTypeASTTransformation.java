@@ -83,7 +83,7 @@ import static visible.org.codehaus.groovy.ast.ClassHelper.int_TYPE;
 import static visible.org.codehaus.groovy.ast.ClassHelper.long_TYPE;
 import static visible.org.codehaus.groovy.ast.ClassHelper.make;
 import static visible.org.codehaus.groovy.ast.ClassHelper.makeWithoutCaching;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.args;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.args;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.arrayX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.assignS;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.bytecodeX;
