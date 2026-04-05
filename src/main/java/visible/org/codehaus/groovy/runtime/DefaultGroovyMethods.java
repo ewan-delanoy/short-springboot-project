@@ -160,7 +160,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import static groovy.lang.groovydoc.Groovydoc.EMPTY_GROOVYDOC;
+import static visible.groovy.lang.groovydoc.Groovydoc.EMPTY_GROOVYDOC;
 
 /**
  * Defines new groovy methods which appear on classes inside the Groovy environment.
