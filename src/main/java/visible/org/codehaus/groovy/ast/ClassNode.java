@@ -52,7 +52,7 @@ import java.util.stream.Stream;
 
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toList;
-import static org.apache.groovy.ast.tools.MethodNodeUtils.getCodeAsBlock;
+import static visible.org.apache.groovy.ast.tools.MethodNodeUtils.getCodeAsBlock;
 import static org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
 import static org.codehaus.groovy.transform.RecordTypeASTTransformation.recordNative;
 import static org.codehaus.groovy.transform.trait.Traits.isTrait;
