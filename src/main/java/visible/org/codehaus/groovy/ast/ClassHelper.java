@@ -42,7 +42,7 @@ import visible.groovy.lang.Tuple2;
 import visible.groovy.lang.Tuple3;
 import visible.groovy.lang.Tuple4;
 import visible.groovy.lang.Tuple5;
-import groovy.lang.Tuple6;
+import visible.groovy.lang.Tuple6;
 import groovy.lang.Tuple7;
 import groovy.lang.Tuple8;
 import groovy.lang.Tuple9;
