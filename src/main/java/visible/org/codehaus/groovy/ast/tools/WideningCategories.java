@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.ast.tools;
 
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.GenericsType;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.GenericsType;
 
 import java.util.ArrayList;
 import java.util.Arrays;
