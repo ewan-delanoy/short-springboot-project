@@ -27,7 +27,7 @@ import visible.groovy.transform.RecordTypeMode;
 import visible.groovy.transform.options.PropertyHandler;
 import visible.org.apache.groovy.ast.tools.MethodNodeUtils;
 import visible.org.apache.groovy.lang.annotation.Incubating;
-import org.codehaus.groovy.ast.ASTNode;
+import visible.org.codehaus.groovy.ast.ASTNode;
 import org.codehaus.groovy.ast.AnnotatedNode;
 import org.codehaus.groovy.ast.AnnotationNode;
 import org.codehaus.groovy.ast.ClassNode;
