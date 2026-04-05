@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import groovy.lang.groovydoc.Groovydoc;
-import groovy.lang.groovydoc.GroovydocHolder;
+import visible.groovy.lang.groovydoc.Groovydoc;
+import visible.groovy.lang.groovydoc.GroovydocHolder;
 
 import java.util.ArrayList;
 import java.util.Collections;
