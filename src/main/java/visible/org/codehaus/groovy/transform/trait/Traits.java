@@ -18,22 +18,22 @@
  */
 package visible.org.codehaus.groovy.transform.trait;
 
-import groovy.lang.GeneratedGroovyProxy;
-import groovy.transform.SelfType;
-import groovy.transform.Trait;
-import org.codehaus.groovy.GroovyBugError;
-import org.codehaus.groovy.ast.AnnotationNode;
-import org.codehaus.groovy.ast.ClassHelper;
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.FieldNode;
-import org.codehaus.groovy.ast.GenericsType;
-import org.codehaus.groovy.ast.MethodNode;
-import org.codehaus.groovy.ast.expr.ClassExpression;
-import org.codehaus.groovy.ast.expr.Expression;
-import org.codehaus.groovy.ast.expr.ListExpression;
-import org.codehaus.groovy.ast.tools.GenericsUtils;
-import org.codehaus.groovy.classgen.asm.BytecodeHelper;
-import org.codehaus.groovy.runtime.DefaultGroovyMethods;
+import visible.groovy.lang.GeneratedGroovyProxy;
+import visible.groovy.transform.SelfType;
+import visible.groovy.transform.Trait;
+import visible.org.codehaus.groovy.GroovyBugError;
+import visible.org.codehaus.groovy.ast.AnnotationNode;
+import visible.org.codehaus.groovy.ast.ClassHelper;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.FieldNode;
+import visible.org.codehaus.groovy.ast.GenericsType;
+import visible.org.codehaus.groovy.ast.MethodNode;
+import visible.org.codehaus.groovy.ast.expr.ClassExpression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.expr.ListExpression;
+import visible.org.codehaus.groovy.ast.tools.GenericsUtils;
+import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
+import visible.org.codehaus.groovy.runtime.DefaultGroovyMethods;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
