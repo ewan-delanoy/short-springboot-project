@@ -18,10 +18,10 @@
  */
 package visible.org.codehaus.groovy.ast.tools;
 
-import org.codehaus.groovy.ast.ClassHelper;
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.Parameter;
-import org.codehaus.groovy.transform.stc.StaticTypeCheckingSupport;
+import visible.org.codehaus.groovy.ast.ClassHelper;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.Parameter;
+import visible.org.codehaus.groovy.transform.stc.StaticTypeCheckingSupport;
 
 import java.util.function.BiPredicate;
 
