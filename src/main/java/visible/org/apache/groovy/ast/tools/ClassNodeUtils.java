@@ -25,7 +25,7 @@ import visible.org.codehaus.groovy.ast.ConstructorNode;
 import visible.org.codehaus.groovy.ast.FieldNode;
 import visible.org.codehaus.groovy.ast.MethodNode;
 import visible.org.codehaus.groovy.ast.Parameter;
-import org.codehaus.groovy.ast.PropertyNode;
+import visible.org.codehaus.groovy.ast.PropertyNode;
 import org.codehaus.groovy.ast.expr.Expression;
 import org.codehaus.groovy.ast.expr.MapExpression;
 import org.codehaus.groovy.ast.expr.SpreadExpression;
