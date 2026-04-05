@@ -18,22 +18,22 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import visible.org.apache.groovy.ast.tools.AnnotatedNodeUtils;
-import visible.org.apache.groovy.ast.tools.ClassNodeUtils;
-import visible.org.apache.groovy.lang.annotation.Incubating;
-import visible.org.codehaus.groovy.GroovyBugError;
-import visible.org.codehaus.groovy.ast.expr.BinaryExpression;
-import visible.org.codehaus.groovy.ast.expr.Expression;
-import visible.org.codehaus.groovy.ast.expr.FieldExpression;
-import visible.org.codehaus.groovy.ast.expr.TupleExpression;
-import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
-import visible.org.codehaus.groovy.ast.stmt.ExpressionStatement;
-import visible.org.codehaus.groovy.ast.stmt.Statement;
-import visible.org.codehaus.groovy.ast.tools.ParameterUtils;
-import visible.org.codehaus.groovy.control.CompilePhase;
-import visible.org.codehaus.groovy.transform.ASTTransformation;
-import visible.org.codehaus.groovy.transform.GroovyASTTransformation;
-import visible.org.codehaus.groovy.vmplugin.VMPluginFactory;
+import org.apache.groovy.ast.tools.AnnotatedNodeUtils;
+import org.apache.groovy.ast.tools.ClassNodeUtils;
+import org.apache.groovy.lang.annotation.Incubating;
+import org.codehaus.groovy.GroovyBugError;
+import org.codehaus.groovy.ast.expr.BinaryExpression;
+import org.codehaus.groovy.ast.expr.Expression;
+import org.codehaus.groovy.ast.expr.FieldExpression;
+import org.codehaus.groovy.ast.expr.TupleExpression;
+import org.codehaus.groovy.ast.stmt.BlockStatement;
+import org.codehaus.groovy.ast.stmt.ExpressionStatement;
+import org.codehaus.groovy.ast.stmt.Statement;
+import org.codehaus.groovy.ast.tools.ParameterUtils;
+import org.codehaus.groovy.control.CompilePhase;
+import org.codehaus.groovy.transform.ASTTransformation;
+import org.codehaus.groovy.transform.GroovyASTTransformation;
+import org.codehaus.groovy.vmplugin.VMPluginFactory;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -52,18 +52,18 @@ import java.util.stream.Stream;
 
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toList;
-import static visible.org.apache.groovy.ast.tools.MethodNodeUtils.getCodeAsBlock;
-import static visible.org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
-import static visible.org.codehaus.groovy.transform.RecordTypeASTTransformation.recordNative;
-import static visible.org.codehaus.groovy.transform.trait.Traits.isTrait;
-import static visible.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
-import static visible.org.objectweb.asm.Opcodes.ACC_ANNOTATION;
-import static visible.org.objectweb.asm.Opcodes.ACC_ENUM;
-import static visible.org.objectweb.asm.Opcodes.ACC_FINAL;
-import static visible.org.objectweb.asm.Opcodes.ACC_INTERFACE;
-import static visible.org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static visible.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static visible.org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
+import static org.apache.groovy.ast.tools.MethodNodeUtils.getCodeAsBlock;
+import static org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
+import static org.codehaus.groovy.transform.RecordTypeASTTransformation.recordNative;
+import static org.codehaus.groovy.transform.trait.Traits.isTrait;
+import static org.objectweb.asm.Opcodes.ACC_ABSTRACT;
+import static org.objectweb.asm.Opcodes.ACC_ANNOTATION;
+import static org.objectweb.asm.Opcodes.ACC_ENUM;
+import static org.objectweb.asm.Opcodes.ACC_FINAL;
+import static org.objectweb.asm.Opcodes.ACC_INTERFACE;
+import static org.objectweb.asm.Opcodes.ACC_PUBLIC;
+import static org.objectweb.asm.Opcodes.ACC_STATIC;
+import static org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
 
 /**
  * Represents a class in the AST.

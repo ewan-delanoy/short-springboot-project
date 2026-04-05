@@ -18,7 +18,7 @@
  */
 package visible.org.apache.groovy.ast.tools;
 
-import org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.ClassNode;
 import org.codehaus.groovy.ast.ConstructorNode;
 import org.codehaus.groovy.ast.MethodNode;
 import org.codehaus.groovy.ast.Parameter;
