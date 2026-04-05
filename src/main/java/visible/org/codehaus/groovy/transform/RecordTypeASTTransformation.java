@@ -121,7 +121,7 @@ import static visible.org.objectweb.asm.Opcodes.ACC_PUBLIC;
 import static visible.org.objectweb.asm.Opcodes.ACC_STATIC;
 import static visible.org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
 import static visible.org.objectweb.asm.Opcodes.ALOAD;
-import static org.objectweb.asm.Opcodes.ARETURN;
+import static visible.org.objectweb.asm.Opcodes.ARETURN;
 import static org.objectweb.asm.Opcodes.IRETURN;
 
 /**
