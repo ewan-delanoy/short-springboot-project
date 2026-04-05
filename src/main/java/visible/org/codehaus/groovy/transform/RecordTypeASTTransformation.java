@@ -117,7 +117,7 @@ import static visible.org.codehaus.groovy.runtime.StringGroovyMethods.isAtLeast;
 import static visible.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 import static visible.org.objectweb.asm.Opcodes.ACC_FINAL;
 import static visible.org.objectweb.asm.Opcodes.ACC_PRIVATE;
-import static org.objectweb.asm.Opcodes.ACC_PUBLIC;
+import static visible.org.objectweb.asm.Opcodes.ACC_PUBLIC;
 import static org.objectweb.asm.Opcodes.ACC_STATIC;
 import static org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
 import static org.objectweb.asm.Opcodes.ALOAD;
