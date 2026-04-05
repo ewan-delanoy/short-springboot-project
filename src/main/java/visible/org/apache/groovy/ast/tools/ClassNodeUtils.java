@@ -47,7 +47,7 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.function.Predicate;
 
-import static org.codehaus.groovy.ast.ClassHelper.isObjectType;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isObjectType;
 import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
 import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveType;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.isOrImplements;
