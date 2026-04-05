@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import groovy.lang.Binding;
+import visible.groovy.lang.Binding;
 import groovy.lang.Closure;
 import groovy.lang.GString;
 import groovy.lang.GroovyInterceptable;
