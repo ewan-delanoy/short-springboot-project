@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.transform;
 
-import groovy.lang.GroovyClassLoader;
+import visible.groovy.lang.GroovyClassLoader;
 import groovy.transform.CompilationUnitAware;
 import groovy.transform.NamedParam;
 import groovy.transform.RecordBase;
