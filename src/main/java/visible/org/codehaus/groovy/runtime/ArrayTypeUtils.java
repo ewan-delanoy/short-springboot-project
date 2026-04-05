@@ -19,7 +19,7 @@
 
 package visible.org.codehaus.groovy.runtime;
 
-import org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.ClassNode;
 
 /**
  * Utilities for handling array types

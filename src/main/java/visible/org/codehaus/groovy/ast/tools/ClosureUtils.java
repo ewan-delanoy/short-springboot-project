@@ -18,10 +18,10 @@
  */
 package visible.org.codehaus.groovy.ast.tools;
 
-import groovy.lang.Closure;
-import org.codehaus.groovy.ast.Parameter;
-import org.codehaus.groovy.ast.expr.ClosureExpression;
-import org.codehaus.groovy.control.io.ReaderSource;
+import visible.groovy.lang.Closure;
+import visible.org.codehaus.groovy.ast.Parameter;
+import visible.org.codehaus.groovy.ast.expr.ClosureExpression;
+import visible.org.codehaus.groovy.control.io.ReaderSource;
 
 /**
  * Handy methods when working with Closure AST data structures.
