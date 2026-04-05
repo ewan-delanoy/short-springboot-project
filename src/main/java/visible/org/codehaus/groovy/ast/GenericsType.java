@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import org.codehaus.groovy.ast.tools.GenericsUtils;
-import org.codehaus.groovy.ast.tools.WideningCategories;
+import visible.org.codehaus.groovy.ast.tools.GenericsUtils;
+import visible.org.codehaus.groovy.ast.tools.WideningCategories;
 
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
