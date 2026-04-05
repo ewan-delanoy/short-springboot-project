@@ -23,7 +23,7 @@ import visible.groovy.transform.CompilationUnitAware;
 import visible.groovy.transform.NamedParam;
 import visible.groovy.transform.RecordBase;
 import visible.groovy.transform.RecordOptions;
-import groovy.transform.RecordTypeMode;
+import visible.groovy.transform.RecordTypeMode;
 import groovy.transform.options.PropertyHandler;
 import org.apache.groovy.ast.tools.MethodNodeUtils;
 import org.apache.groovy.lang.annotation.Incubating;
