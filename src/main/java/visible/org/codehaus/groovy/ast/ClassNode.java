@@ -33,7 +33,7 @@ import visible.org.codehaus.groovy.ast.tools.ParameterUtils;
 import visible.org.codehaus.groovy.control.CompilePhase;
 import visible.org.codehaus.groovy.transform.ASTTransformation;
 import visible.org.codehaus.groovy.transform.GroovyASTTransformation;
-import org.codehaus.groovy.vmplugin.VMPluginFactory;
+import visible.org.codehaus.groovy.vmplugin.VMPluginFactory;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
