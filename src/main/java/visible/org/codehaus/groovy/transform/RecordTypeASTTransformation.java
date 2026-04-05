@@ -35,7 +35,7 @@ import visible.org.codehaus.groovy.ast.FieldNode;
 import visible.org.codehaus.groovy.ast.GenericsType;
 import visible.org.codehaus.groovy.ast.InnerClassNode;
 import visible.org.codehaus.groovy.ast.Parameter;
-import org.codehaus.groovy.ast.PropertyNode;
+import visible.org.codehaus.groovy.ast.PropertyNode;
 import org.codehaus.groovy.ast.RecordComponentNode;
 import org.codehaus.groovy.ast.expr.ArgumentListExpression;
 import org.codehaus.groovy.ast.expr.ClassExpression;
