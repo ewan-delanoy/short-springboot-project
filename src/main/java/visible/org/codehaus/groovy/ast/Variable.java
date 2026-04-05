@@ -18,14 +18,14 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
 
-import static org.objectweb.asm.Opcodes.ACC_FINAL;
-import static org.objectweb.asm.Opcodes.ACC_PRIVATE;
-import static org.objectweb.asm.Opcodes.ACC_PROTECTED;
-import static org.objectweb.asm.Opcodes.ACC_PUBLIC;
-import static org.objectweb.asm.Opcodes.ACC_STATIC;
-import static org.objectweb.asm.Opcodes.ACC_VOLATILE;
+import static visible.org.objectweb.asm.Opcodes.ACC_FINAL;
+import static visible.org.objectweb.asm.Opcodes.ACC_PRIVATE;
+import static visible.org.objectweb.asm.Opcodes.ACC_PROTECTED;
+import static visible.org.objectweb.asm.Opcodes.ACC_PUBLIC;
+import static visible.org.objectweb.asm.Opcodes.ACC_STATIC;
+import static visible.org.objectweb.asm.Opcodes.ACC_VOLATILE;
 
 /**
  * interface to mark a AstNode as Variable. Typically these are
