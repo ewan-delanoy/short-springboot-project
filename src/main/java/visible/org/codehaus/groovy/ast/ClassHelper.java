@@ -49,7 +49,7 @@ import visible.groovy.lang.Tuple9;
 import visible.groovy.transform.Sealed;
 import visible.org.apache.groovy.util.Maps;
 import visible.org.apache.groovy.util.concurrent.ManagedIdentityConcurrentMap;
-import org.codehaus.groovy.classgen.asm.util.TypeUtil;
+import visible.org.codehaus.groovy.classgen.asm.util.TypeUtil;
 import org.codehaus.groovy.runtime.GeneratedClosure;
 import org.codehaus.groovy.runtime.GeneratedLambda;
 import org.codehaus.groovy.transform.trait.Traits;
