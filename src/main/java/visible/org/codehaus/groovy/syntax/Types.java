@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.syntax;
 
-import org.codehaus.groovy.GroovyBugError;
+import visible.org.codehaus.groovy.GroovyBugError;
 
 import java.util.Collection;
 import java.util.Collections;
