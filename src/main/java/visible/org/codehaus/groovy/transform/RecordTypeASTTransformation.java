@@ -98,7 +98,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.getInstanceProp
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.hasDeclaredMethod;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.indexX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.listX;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.mapEntryX;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.mapEntryX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.mapX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.nullX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.param;
