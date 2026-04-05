@@ -95,7 +95,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.constX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.ctorX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.declS;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.getInstanceProperties;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.hasDeclaredMethod;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.hasDeclaredMethod;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.indexX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.listX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.mapEntryX;
