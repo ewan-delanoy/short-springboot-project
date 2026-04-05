@@ -18,18 +18,18 @@
  */
 package visible.org.codehaus.groovy.antlr;
 
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.expr.ConstantExpression;
-import org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.expr.ConstantExpression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
 
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveByte;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveChar;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveDouble;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveFloat;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveInt;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveLong;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveShort;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveByte;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveChar;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveDouble;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveFloat;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveInt;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveLong;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveShort;
 
 public class PrimitiveHelper {
 
