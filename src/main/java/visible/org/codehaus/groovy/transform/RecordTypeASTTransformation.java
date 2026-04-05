@@ -29,7 +29,7 @@ import visible.org.apache.groovy.ast.tools.MethodNodeUtils;
 import visible.org.apache.groovy.lang.annotation.Incubating;
 import visible.org.codehaus.groovy.ast.ASTNode;
 import visible.org.codehaus.groovy.ast.AnnotatedNode;
-import org.codehaus.groovy.ast.AnnotationNode;
+import visible.org.codehaus.groovy.ast.AnnotationNode;
 import org.codehaus.groovy.ast.ClassNode;
 import org.codehaus.groovy.ast.FieldNode;
 import org.codehaus.groovy.ast.GenericsType;
