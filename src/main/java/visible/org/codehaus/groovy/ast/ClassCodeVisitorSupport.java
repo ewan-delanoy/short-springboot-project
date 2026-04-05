@@ -18,29 +18,29 @@
  */
 package visible.org.codehaus.groovy.ast;
 
-import org.codehaus.groovy.ast.expr.ClosureExpression;
-import org.codehaus.groovy.ast.expr.DeclarationExpression;
-import org.codehaus.groovy.ast.expr.Expression;
-import org.codehaus.groovy.ast.stmt.AssertStatement;
-import org.codehaus.groovy.ast.stmt.BlockStatement;
-import org.codehaus.groovy.ast.stmt.BreakStatement;
-import org.codehaus.groovy.ast.stmt.CaseStatement;
-import org.codehaus.groovy.ast.stmt.CatchStatement;
-import org.codehaus.groovy.ast.stmt.ContinueStatement;
-import org.codehaus.groovy.ast.stmt.DoWhileStatement;
-import org.codehaus.groovy.ast.stmt.ExpressionStatement;
-import org.codehaus.groovy.ast.stmt.ForStatement;
-import org.codehaus.groovy.ast.stmt.IfStatement;
-import org.codehaus.groovy.ast.stmt.ReturnStatement;
-import org.codehaus.groovy.ast.stmt.Statement;
-import org.codehaus.groovy.ast.stmt.SwitchStatement;
-import org.codehaus.groovy.ast.stmt.SynchronizedStatement;
-import org.codehaus.groovy.ast.stmt.ThrowStatement;
-import org.codehaus.groovy.ast.stmt.TryCatchStatement;
-import org.codehaus.groovy.ast.stmt.WhileStatement;
-import org.codehaus.groovy.control.SourceUnit;
-import org.codehaus.groovy.syntax.SyntaxException;
-import org.codehaus.groovy.transform.ErrorCollecting;
+import visible.org.codehaus.groovy.ast.expr.ClosureExpression;
+import visible.org.codehaus.groovy.ast.expr.DeclarationExpression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.stmt.AssertStatement;
+import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
+import visible.org.codehaus.groovy.ast.stmt.BreakStatement;
+import visible.org.codehaus.groovy.ast.stmt.CaseStatement;
+import visible.org.codehaus.groovy.ast.stmt.CatchStatement;
+import visible.org.codehaus.groovy.ast.stmt.ContinueStatement;
+import visible.org.codehaus.groovy.ast.stmt.DoWhileStatement;
+import visible.org.codehaus.groovy.ast.stmt.ExpressionStatement;
+import visible.org.codehaus.groovy.ast.stmt.ForStatement;
+import visible.org.codehaus.groovy.ast.stmt.IfStatement;
+import visible.org.codehaus.groovy.ast.stmt.ReturnStatement;
+import visible.org.codehaus.groovy.ast.stmt.Statement;
+import visible.org.codehaus.groovy.ast.stmt.SwitchStatement;
+import visible.org.codehaus.groovy.ast.stmt.SynchronizedStatement;
+import visible.org.codehaus.groovy.ast.stmt.ThrowStatement;
+import visible.org.codehaus.groovy.ast.stmt.TryCatchStatement;
+import visible.org.codehaus.groovy.ast.stmt.WhileStatement;
+import visible.org.codehaus.groovy.control.SourceUnit;
+import visible.org.codehaus.groovy.syntax.SyntaxException;
+import visible.org.codehaus.groovy.transform.ErrorCollecting;
 
 public abstract class ClassCodeVisitorSupport extends CodeVisitorSupport implements ErrorCollecting, GroovyClassVisitor {
 
