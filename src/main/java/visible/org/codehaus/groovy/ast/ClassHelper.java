@@ -33,7 +33,7 @@ import visible.groovy.lang.Tuple0;
 import visible.groovy.lang.Tuple1;
 import visible.groovy.lang.Tuple10;
 import visible.groovy.lang.Tuple11;
-import groovy.lang.Tuple12;
+import visible.groovy.lang.Tuple12;
 import groovy.lang.Tuple13;
 import groovy.lang.Tuple14;
 import groovy.lang.Tuple15;
