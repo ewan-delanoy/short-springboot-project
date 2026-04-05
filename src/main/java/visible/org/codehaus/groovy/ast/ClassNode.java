@@ -63,7 +63,7 @@ import static visible.org.objectweb.asm.Opcodes.ACC_FINAL;
 import static visible.org.objectweb.asm.Opcodes.ACC_INTERFACE;
 import static visible.org.objectweb.asm.Opcodes.ACC_PUBLIC;
 import static visible.org.objectweb.asm.Opcodes.ACC_STATIC;
-import static org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
+import static visible.org.objectweb.asm.Opcodes.ACC_SYNTHETIC;
 
 /**
  * Represents a class in the AST.
