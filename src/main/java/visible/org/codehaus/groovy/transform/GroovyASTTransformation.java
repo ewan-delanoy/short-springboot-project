@@ -18,7 +18,7 @@
  */
 package visible.org.codehaus.groovy.transform;
 
-import org.codehaus.groovy.control.CompilePhase;
+import visible.org.codehaus.groovy.control.CompilePhase;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

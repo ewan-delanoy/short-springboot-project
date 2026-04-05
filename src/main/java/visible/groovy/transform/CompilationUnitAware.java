@@ -18,7 +18,7 @@
  */
 package visible.groovy.transform;
 
-import org.codehaus.groovy.control.CompilationUnit;
+import visible.org.codehaus.groovy.control.CompilationUnit;
 
 /**
  * This interface is for AST transformations which must be aware of the compilation unit where they are applied.
