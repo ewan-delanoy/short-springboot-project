@@ -53,7 +53,7 @@ import visible.org.codehaus.groovy.control.CompilationUnit;
 import visible.org.codehaus.groovy.control.CompilePhase;
 import visible.org.codehaus.groovy.control.CompilerConfiguration;
 import visible.org.codehaus.groovy.control.SourceUnit;
-import org.objectweb.asm.Handle;
+import visible.org.objectweb.asm.Handle;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.Type;
 
