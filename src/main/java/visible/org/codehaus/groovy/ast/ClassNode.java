@@ -31,7 +31,7 @@ import visible.org.codehaus.groovy.ast.stmt.ExpressionStatement;
 import visible.org.codehaus.groovy.ast.stmt.Statement;
 import visible.org.codehaus.groovy.ast.tools.ParameterUtils;
 import visible.org.codehaus.groovy.control.CompilePhase;
-import org.codehaus.groovy.transform.ASTTransformation;
+import visible.org.codehaus.groovy.transform.ASTTransformation;
 import org.codehaus.groovy.transform.GroovyASTTransformation;
 import org.codehaus.groovy.vmplugin.VMPluginFactory;
 
