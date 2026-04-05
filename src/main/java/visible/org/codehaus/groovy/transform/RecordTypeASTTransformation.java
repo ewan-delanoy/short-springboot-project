@@ -48,7 +48,7 @@ import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
 import visible.org.codehaus.groovy.ast.stmt.Statement;
 import visible.org.codehaus.groovy.ast.stmt.SwitchStatement;
 import visible.org.codehaus.groovy.ast.tools.GenericsUtils;
-import org.codehaus.groovy.classgen.asm.BytecodeHelper;
+import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
 import org.codehaus.groovy.control.CompilationUnit;
 import org.codehaus.groovy.control.CompilePhase;
 import org.codehaus.groovy.control.CompilerConfiguration;
