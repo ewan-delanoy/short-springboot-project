@@ -30,8 +30,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.apache.groovy.util.BeanUtils.decapitalize;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
+import static visible.org.apache.groovy.util.BeanUtils.decapitalize;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
 import static org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 
 /**
