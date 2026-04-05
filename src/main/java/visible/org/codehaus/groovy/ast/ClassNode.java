@@ -24,7 +24,7 @@ import visible.org.apache.groovy.lang.annotation.Incubating;
 import visible.org.codehaus.groovy.GroovyBugError;
 import visible.org.codehaus.groovy.ast.expr.BinaryExpression;
 import visible.org.codehaus.groovy.ast.expr.Expression;
-import org.codehaus.groovy.ast.expr.FieldExpression;
+import visible.org.codehaus.groovy.ast.expr.FieldExpression;
 import org.codehaus.groovy.ast.expr.TupleExpression;
 import org.codehaus.groovy.ast.stmt.BlockStatement;
 import org.codehaus.groovy.ast.stmt.ExpressionStatement;
