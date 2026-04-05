@@ -18,9 +18,9 @@
  */
 package visible.org.codehaus.groovy.ast.stmt;
 
-import org.codehaus.groovy.GroovyBugError;
-import org.codehaus.groovy.ast.GroovyCodeVisitor;
-import org.codehaus.groovy.ast.expr.DeclarationExpression;
+import visible.org.codehaus.groovy.GroovyBugError;
+import visible.org.codehaus.groovy.ast.GroovyCodeVisitor;
+import visible.org.codehaus.groovy.ast.expr.DeclarationExpression;
 import org.codehaus.groovy.ast.expr.Expression;
 import org.codehaus.groovy.ast.expr.VariableExpression;
 
