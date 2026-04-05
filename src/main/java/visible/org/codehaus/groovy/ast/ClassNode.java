@@ -56,7 +56,7 @@ import static visible.org.apache.groovy.ast.tools.MethodNodeUtils.getCodeAsBlock
 import static visible.org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
 import static visible.org.codehaus.groovy.transform.RecordTypeASTTransformation.recordNative;
 import static visible.org.codehaus.groovy.transform.trait.Traits.isTrait;
-import static org.objectweb.asm.Opcodes.ACC_ABSTRACT;
+import static visible.org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 import static org.objectweb.asm.Opcodes.ACC_ANNOTATION;
 import static org.objectweb.asm.Opcodes.ACC_ENUM;
 import static org.objectweb.asm.Opcodes.ACC_FINAL;
