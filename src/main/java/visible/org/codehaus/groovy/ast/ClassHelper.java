@@ -47,7 +47,7 @@ import visible.groovy.lang.Tuple7;
 import visible.groovy.lang.Tuple8;
 import visible.groovy.lang.Tuple9;
 import visible.groovy.transform.Sealed;
-import org.apache.groovy.util.Maps;
+import visible.org.apache.groovy.util.Maps;
 import org.apache.groovy.util.concurrent.ManagedIdentityConcurrentMap;
 import org.codehaus.groovy.classgen.asm.util.TypeUtil;
 import org.codehaus.groovy.runtime.GeneratedClosure;
