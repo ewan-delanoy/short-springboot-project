@@ -99,7 +99,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.hasDeclaredMeth
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.indexX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.listX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.mapEntryX;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.mapX;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.mapX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.nullX;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.param;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.params;
