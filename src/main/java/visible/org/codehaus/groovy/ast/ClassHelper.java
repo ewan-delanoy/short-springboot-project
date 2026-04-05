@@ -54,7 +54,7 @@ import visible.org.codehaus.groovy.runtime.GeneratedClosure;
 import visible.org.codehaus.groovy.runtime.GeneratedLambda;
 import visible.org.codehaus.groovy.transform.trait.Traits;
 import visible.org.codehaus.groovy.vmplugin.VMPluginFactory;
-import org.objectweb.asm.Opcodes;
+import visible.org.objectweb.asm.Opcodes;
 
 import java.io.Serializable;
 import java.lang.annotation.Annotation;
