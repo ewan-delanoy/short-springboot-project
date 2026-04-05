@@ -51,7 +51,7 @@ import visible.org.codehaus.groovy.ast.tools.GenericsUtils;
 import visible.org.codehaus.groovy.classgen.asm.BytecodeHelper;
 import visible.org.codehaus.groovy.control.CompilationUnit;
 import visible.org.codehaus.groovy.control.CompilePhase;
-import org.codehaus.groovy.control.CompilerConfiguration;
+import visible.org.codehaus.groovy.control.CompilerConfiguration;
 import org.codehaus.groovy.control.SourceUnit;
 import org.objectweb.asm.Handle;
 import org.objectweb.asm.Opcodes;
