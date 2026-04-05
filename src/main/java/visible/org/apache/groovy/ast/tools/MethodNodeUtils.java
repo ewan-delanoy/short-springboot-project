@@ -24,7 +24,7 @@ import visible.org.codehaus.groovy.ast.MethodNode;
 import visible.org.codehaus.groovy.ast.Parameter;
 import visible.org.codehaus.groovy.ast.stmt.BlockStatement;
 import visible.org.codehaus.groovy.ast.stmt.EmptyStatement;
-import org.codehaus.groovy.ast.stmt.Statement;
+import visible.org.codehaus.groovy.ast.stmt.Statement;
 
 import java.util.ArrayList;
 import java.util.Arrays;
