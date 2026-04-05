@@ -22,7 +22,7 @@ import visible.groovy.lang.Binding;
 import visible.groovy.lang.Closure;
 import visible.groovy.lang.GString;
 import visible.groovy.lang.GroovyInterceptable;
-import groovy.lang.GroovyObject;
+import visible.groovy.lang.GroovyObject;
 import groovy.lang.GroovyObjectSupport;
 import groovy.lang.MetaClass;
 import groovy.lang.Range;
