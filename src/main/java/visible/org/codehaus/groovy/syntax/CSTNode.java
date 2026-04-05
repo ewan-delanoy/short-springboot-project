@@ -18,8 +18,8 @@
  */
 package visible.org.codehaus.groovy.syntax;
 
-import org.apache.groovy.io.StringBuilderWriter;
-import org.codehaus.groovy.GroovyBugError;
+import visible.org.apache.groovy.io.StringBuilderWriter;
+import visible.org.codehaus.groovy.GroovyBugError;
 
 import java.io.PrintWriter;
 import java.io.Writer;
