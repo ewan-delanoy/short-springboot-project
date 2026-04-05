@@ -112,7 +112,7 @@ import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.ternaryX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.thisPropX;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.throwS;
 import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.tryCatchS;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.varX;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.varX;
 import static org.codehaus.groovy.runtime.StringGroovyMethods.isAtLeast;
 import static org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 import static org.objectweb.asm.Opcodes.ACC_FINAL;
