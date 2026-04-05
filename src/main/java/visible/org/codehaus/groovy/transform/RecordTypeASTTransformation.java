@@ -55,7 +55,7 @@ import visible.org.codehaus.groovy.control.CompilerConfiguration;
 import visible.org.codehaus.groovy.control.SourceUnit;
 import visible.org.objectweb.asm.Handle;
 import visible.org.objectweb.asm.Opcodes;
-import org.objectweb.asm.Type;
+import visible.org.objectweb.asm.Type;
 
 import java.awt.Image;
 import java.beans.BeanDescriptor;
