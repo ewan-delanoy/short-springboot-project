@@ -48,10 +48,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import static groovy.transform.Undefined.isUndefined;
-import static org.codehaus.groovy.ast.ClassHelper.isObjectType;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.getInstanceNonPropertyFieldNames;
-import static org.codehaus.groovy.ast.tools.GeneralUtils.getSuperNonPropertyFields;
+import static visible.groovy.transform.Undefined.isUndefined;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isObjectType;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.getInstanceNonPropertyFieldNames;
+import static visible.org.codehaus.groovy.ast.tools.GeneralUtils.getSuperNonPropertyFields;
 
 public abstract class AbstractASTTransformation implements ASTTransformation, ErrorCollecting {
     public static final ClassNode RETENTION_CLASSNODE = ClassHelper.makeWithoutCaching(Retention.class);
