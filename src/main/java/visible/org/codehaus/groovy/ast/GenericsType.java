@@ -28,8 +28,8 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-import static visible.org.codehaus.groovy.ast.ClassHelperisObjectType;
-import static visible.org.codehaus.groovy.transform.stc.StaticTypeCheckingSupportimplementsInterfaceOrIsSubclassOf;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isObjectType;
+import static visible.org.codehaus.groovy.transform.stc.StaticTypeCheckingSupport.implementsInterfaceOrIsSubclassOf;
 
 /**
  * This class is used to describe generic type signatures for ClassNodes.

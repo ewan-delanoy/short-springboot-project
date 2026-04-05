@@ -18,19 +18,19 @@
  */
 package visible.org.apache.groovy.ast.tools;
 
-import org.codehaus.groovy.ast.ClassHelper;
-import org.codehaus.groovy.ast.ClassNode;
-import org.codehaus.groovy.ast.FieldNode;
-import org.codehaus.groovy.ast.expr.BinaryExpression;
-import org.codehaus.groovy.ast.expr.CastExpression;
-import org.codehaus.groovy.ast.expr.ClassExpression;
-import org.codehaus.groovy.ast.expr.ConstantExpression;
-import org.codehaus.groovy.ast.expr.Expression;
-import org.codehaus.groovy.ast.expr.ListExpression;
-import org.codehaus.groovy.ast.expr.PropertyExpression;
-import org.codehaus.groovy.ast.expr.VariableExpression;
-import org.codehaus.groovy.runtime.DefaultGroovyMethods;
-import org.codehaus.groovy.runtime.typehandling.NumberMath;
+import visible.org.codehaus.groovy.ast.ClassHelper;
+import visible.org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.FieldNode;
+import visible.org.codehaus.groovy.ast.expr.BinaryExpression;
+import visible.org.codehaus.groovy.ast.expr.CastExpression;
+import visible.org.codehaus.groovy.ast.expr.ClassExpression;
+import visible.org.codehaus.groovy.ast.expr.ConstantExpression;
+import visible.org.codehaus.groovy.ast.expr.Expression;
+import visible.org.codehaus.groovy.ast.expr.ListExpression;
+import visible.org.codehaus.groovy.ast.expr.PropertyExpression;
+import visible.org.codehaus.groovy.ast.expr.VariableExpression;
+import visible.org.codehaus.groovy.runtime.DefaultGroovyMethods;
+import visible.org.codehaus.groovy.runtime.typehandling.NumberMath;
 
 import java.math.BigDecimal;
 import java.util.List;
