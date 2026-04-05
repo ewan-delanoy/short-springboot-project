@@ -49,7 +49,7 @@ import java.util.function.Predicate;
 
 import static visible.org.codehaus.groovy.ast.ClassHelper.isObjectType;
 import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveBoolean;
-import static org.codehaus.groovy.ast.ClassHelper.isPrimitiveType;
+import static visible.org.codehaus.groovy.ast.ClassHelper.isPrimitiveType;
 import static org.codehaus.groovy.ast.tools.GeneralUtils.isOrImplements;
 import static org.codehaus.groovy.runtime.ArrayGroovyMethods.asBoolean;
 import static org.codehaus.groovy.runtime.ArrayTypeUtils.dimension;
