@@ -30,7 +30,7 @@ import visible.org.apache.groovy.lang.annotation.Incubating;
 import visible.org.codehaus.groovy.ast.ASTNode;
 import visible.org.codehaus.groovy.ast.AnnotatedNode;
 import visible.org.codehaus.groovy.ast.AnnotationNode;
-import org.codehaus.groovy.ast.ClassNode;
+import visible.org.codehaus.groovy.ast.ClassNode;
 import org.codehaus.groovy.ast.FieldNode;
 import org.codehaus.groovy.ast.GenericsType;
 import org.codehaus.groovy.ast.InnerClassNode;
