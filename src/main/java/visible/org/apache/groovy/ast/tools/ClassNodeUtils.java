@@ -28,7 +28,7 @@ import visible.org.codehaus.groovy.ast.Parameter;
 import visible.org.codehaus.groovy.ast.PropertyNode;
 import visible.org.codehaus.groovy.ast.expr.Expression;
 import visible.org.codehaus.groovy.ast.expr.MapExpression;
-import org.codehaus.groovy.ast.expr.SpreadExpression;
+import visible.org.codehaus.groovy.ast.expr.SpreadExpression;
 import org.codehaus.groovy.ast.expr.TupleExpression;
 import org.codehaus.groovy.ast.stmt.Statement;
 import org.codehaus.groovy.transform.AbstractASTTransformation;
