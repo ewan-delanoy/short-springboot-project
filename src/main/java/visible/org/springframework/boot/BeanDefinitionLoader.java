@@ -22,7 +22,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import visible.groovy.lang.Closure;
+// jmport groovy.lang.Closure;
 import org.jspecify.annotations.Nullable;
 
 import org.springframework.beans.BeanUtils;
@@ -153,11 +153,11 @@ class BeanDefinitionLoader {
 	}
 
 	private void load(Class<?> source) {
-		if (this.groovyReader != null && GroovyBeanDefinitionSource.class.isAssignableFrom(source)) {
+		/* jf (this.groovyReader != null && GroovyBeanDefinitionSource.class.isAssignableFrom(source)) {
 			// Any GroovyLoaders added in beans{} DSL can contribute beans here
 			GroovyBeanDefinitionSource loader = BeanUtils.instantiateClass(source, GroovyBeanDefinitionSource.class);
 			((GroovyBeanDefinitionReader) this.groovyReader).beans(loader.getBeans());
-		}
+		} */
 		if (isEligible(source)) {
 			this.annotatedReader.register(source);
 		}
@@ -326,11 +326,11 @@ class BeanDefinitionLoader {
 	/**
 	 * Source for Bean definitions defined in Groovy.
 	 */
-	@FunctionalInterface
+	/* @GunctionalInterface
 	protected interface GroovyBeanDefinitionSource {
 
 		Closure<?> getBeans();
 
-	}
+	} */
 
 }

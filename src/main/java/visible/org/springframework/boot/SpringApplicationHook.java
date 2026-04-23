@@ -16,7 +16,6 @@
 
 package visible.org.springframework.boot;
 
-
 import org.jspecify.annotations.Nullable;
 
 /**
@@ -33,12 +32,12 @@ import org.jspecify.annotations.Nullable;
 @FunctionalInterface
 public interface SpringApplicationHook {
 
-    /**
-     * Return the {@link SpringApplicationRunListener} that should be hooked into the
-     * given {@link AutumnApplication}.
-     * @param springApplication the source {@link AutumnApplication} instance
-     * @return the {@link SpringApplicationRunListener} to attach or {@code null}
-     */
-    @Nullable SpringApplicationRunListener getRunListener(AutumnApplication springApplication);
+	/**
+	 * Return the {@link SpringApplicationRunListener} that should be hooked into the
+	 * given {@link AutumnApplication}.
+	 * @param springApplication the source {@link AutumnApplication} instance
+	 * @return the {@link SpringApplicationRunListener} to attach or {@code null}
+	 */
+	@Nullable SpringApplicationRunListener getRunListener(AutumnApplication springApplication);
 
 }
